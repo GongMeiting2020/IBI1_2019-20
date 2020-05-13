@@ -33,10 +33,9 @@ else:
     print("g cannot devided by 7")
 
 
-X=input
-Y=input
-k=X and not Y
-l=Y and not X
-Z=k or l
+X=True
+Y=False
+Z=(X and not Y) or (Y and not X)
+print(Z)
 W= X!=Y
-print(Z=W)
+print(Z==W)
